@@ -7,12 +7,12 @@
 	border-top-right-radius: 10px;
 }
 .navbar-fb img {
-    width: 115px;
+    width: 115;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-.fb-alert {
+.navbar-fb-alert {
 	background: #fa3e3e;
 	width: 100%;
 	height: auto;
@@ -21,6 +21,7 @@
 	font-size: 15px;
 	font-family: Roboto;
 	text-align: left;
+	display: none;
 }
 .content-box-fb {
     width: 300px;
@@ -30,14 +31,14 @@
     display: block;
 }
 .content-box-fb img {
-    width: 60px;
+    width: 60;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
     display: block;
 }
-.txt-login-fb {
+.content-box-fb p {
     width: 270px;
     height: auto;
     margin-top: 10px;
@@ -47,11 +48,28 @@
     padding: 8px;
     color: #90949c;
     font-size: 16px;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
     text-align: center;
     display: block;
 }
-.loginEmail {
+.content-box-fb span {
+	width: 100%;
+    padding: 5px;
+    color: #3b5998;
+    font-size: 13.5px;
+    font-family: Roboto;
+    text-align: center;
+	display: block;
+}
+.content-box-fb span:nth-last-child(1) {
+	color: #7596c8;
+	margin-bottom: 30px;
+}
+.form-group-fb {
+	width: 100%;
+	height: auto;
+}
+.form-group-fb input {
 	width: 100%;
 	height: auto;
 	padding: 12px;
@@ -60,48 +78,29 @@
 	font-weight: 400;
 	font-family: Roboto, sans-serif;
 	border: 1px solid #bdbebf;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
 	cursor: pointer;
 	outline: none;
 }
-.loginPassword {
-	width: 100%;
-	height: auto;
-	padding: 12px;
-	color: #000;
-	font-size: 14px;
-	font-weight: 400;
-	font-family: Roboto, sans-serif;
-	border: 1px solid #bdbebf;
+.form-group-fb input:nth-child(1) {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.form-group-fb input:nth-child(2) {
 	border-top: 0px;
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
-	cursor: pointer;
-	outline: none;
 }
-.showHide {
-	margin-top: -32px;
-	padding-right: 8px;
-	color: #333333;
-	font-size: 12px;
-	font-family: Roboto, sans-serif;
-	font-weight: bold;
-	text-align: right;
-	text-transform: uppercase;
-}
-.btn-login-fb {
+.form-group-fb button {
 	background: #1778f2;
 	width: 100%;
 	height: auto;
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
 	padding: 10px;
 	color: #fff;
 	font-size: 14px;
-	font-family: Roboto, sans-serif;
+	font-family: Roboto;
 	font-weight: bold;
 	text-align: center;
 	text-shadow: 1px 0px rgba(0, 0, 0, 0.3);
@@ -111,33 +110,21 @@
 	outline: none;
 	display: block;
 }
-.txt-create-account {
-    width: 100%;
-    height: auto;
-    padding: 5px;
-    color: #3b5998;
-    font-size: 13.5px;
-    font-family: Roboto, sans-serif;
-    text-align: center;
-}
-.txt-not-now {
-    width: 100%;
-    height: auto;
-    padding: 5px;
-    color: #3b5998;
-    font-size: 13.5px;
-    font-family: Roboto, sans-serif;
-    text-align: center;
-}
-.txt-forgotten-password {
-    width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-    padding: 5px;
-    color: #7596c8;
-    font-size: 13.5px;
-    font-family: Roboto, sans-serif;
-    text-align: center;
+.form-group-fb .login-form-shid {
+	width: 70px;
+	height: auto;
+	margin-left: 71%;
+	padding: 11px;
+	color: #1778f2;
+	font-size: 14px;
+	font-family: Roboto;
+	text-align: center;
+	text-transform: uppercase;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	position: absolute;
+	z-index: 9999999;
+	cursor: pointer;
 }
 .language-box {
     width: 100%;
@@ -153,7 +140,7 @@
     margin-bottom: 0px;
     color: #3b5998;
     font-size: 12px;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
     text-align: center;
     display: inline-block;
 }
@@ -174,20 +161,10 @@
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
     color: #90949c;
     font-size: 12px;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
     text-align: center;
     display: block;
 }
-.content-box-fb .kaget {
-        display: none;
-        left: -15px;
-        position: relative;
-        width: 300px;
-        padding: 5px;
-        background: red;
-        color:#fff;
-        font-size: 13px;
-        font-family: system-ui;
-    }
